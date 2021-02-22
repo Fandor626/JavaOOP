@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>test.TestByConsole</OriginalElement>
+  <nodes>
+    <node x="156.27083333333334" y="204.0">model.Timber</node>
+    <node x="207.9239417989418" y="485.0">store.ProductStore</node>
+    <node x="255.4454365079365" y="710.0">test.TestByConsole</node>
+    <node x="0.0" y="474.0">store.WoodDirectory</node>
+    <node x="124.96626984126988" y="0.0">model.Wood</node>
+    <node x="85.8301917989418" y="765.0">test.TestApp</node>
+    <node x="183.75000000000003" y="991.0">main.main</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="test.TestApp" target="model.Timber">
+      <point x="-12.333333333333371" y="-60.5" />
+      <point x="147.49685846560843" y="690.0" />
+      <point x="165.5" y="690.0" />
+      <point x="165.5" y="444.0" />
+      <point x="171.98511904761907" y="444.0" />
+      <point x="-94.28571428571428" y="105.0" />
+    </edge>
+    <edge source="test.TestApp" target="store.WoodDirectory">
+      <point x="-61.666666666666686" y="-60.5" />
+      <point x="98.16352513227511" y="690.0" />
+      <point x="19.375" y="690.0" />
+      <point x="-58.125" y="83.0" />
+    </edge>
+    <edge source="model.Timber" target="model.Wood">
+      <point x="-55.0" y="-105.0" />
+      <point x="-2.8421709430404007E-14" y="72.0" />
+    </edge>
+    <edge source="main.main" target="test.TestApp">
+      <point x="-55.875" y="-27.0" />
+      <point x="202.37500000000003" y="971.0" />
+      <point x="122.8301917989418" y="971.0" />
+      <point x="-37.0" y="60.5" />
+    </edge>
+    <edge source="test.TestApp" target="store.ProductStore">
+      <point x="37.0" y="-60.5" />
+      <point x="196.8301917989418" y="680.0" />
+      <point x="225.9239417989418" y="680.0" />
+      <point x="-54.0" y="72.0" />
+    </edge>
+    <edge source="test.TestByConsole" target="model.Timber">
+      <point x="32.625" y="-115.5" />
+      <point x="375.0704365079365" y="690.0" />
+      <point x="389.36524470899474" y="690.0" />
+      <point x="389.36524470899474" y="434.0" />
+      <point x="360.5565476190476" y="434.0" />
+      <point x="94.28571428571428" y="105.0" />
+    </edge>
+    <edge source="store.ProductStore" target="model.Timber">
+      <point x="-48.0" y="-72.0" />
+      <point x="231.9239417989418" y="454.0" />
+      <point x="234.8422619047619" y="454.0" />
+      <point x="-31.428571428571445" y="105.0" />
+    </edge>
+    <edge source="test.TestByConsole" target="store.WoodDirectory">
+      <point x="-54.375" y="-115.5" />
+      <point x="288.0704365079365" y="660.0" />
+      <point x="135.625" y="660.0" />
+      <point x="58.125" y="83.0" />
+    </edge>
+    <edge source="main.main" target="test.TestByConsole">
+      <point x="18.625" y="-27.0" />
+      <point x="276.875" y="971.0" />
+      <point x="298.9454365079365" y="971.0" />
+      <point x="-43.5" y="115.5" />
+    </edge>
+    <edge source="test.TestByConsole" target="store.ProductStore">
+      <point x="-32.625" y="-115.5" />
+      <point x="309.8204365079365" y="690.0" />
+      <point x="297.9239417989418" y="690.0" />
+      <point x="18.0" y="72.0" />
+    </edge>
+    <edge source="test.TestByConsole" target="model.Wood">
+      <point x="76.125" y="-115.5" />
+      <point x="418.5704365079365" y="690.0" />
+      <point x="416.77149470899474" y="690.0" />
+      <point x="416.77149470899474" y="164.0" />
+      <point x="285.609126984127" y="164.0" />
+      <point x="74.14285714285714" y="72.0" />
+    </edge>
+    <edge source="store.WoodDirectory" target="model.Wood">
+      <point x="51.66666666666666" y="-83.0" />
+      <point x="129.16666666666666" y="454.0" />
+      <point x="102.64649470899471" y="454.0" />
+      <point x="102.64649470899471" y="184.0" />
+      <point x="186.75198412698415" y="184.0" />
+      <point x="-24.714285714285722" y="72.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="376.0" y="629.5" />
+  <SelectedNodes>
+    <node>test.TestByConsole</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
