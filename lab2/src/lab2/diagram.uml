@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="249.0" y="285.0">lab1.store.ProductStore</node>
+    <node x="0.0" y="505.0">lab1.test.TestApp</node>
+    <node x="486.0" y="285.0">lab1.model.Wood</node>
+    <node x="0.0" y="0.0">lab1.test.TestByConsole</node>
+    <node x="195.0" y="505.0">com.company.Main</node>
+    <node x="0.0" y="285.0">lab1.store.WoodDirectory</node>
+    <node x="249.0" y="0.0">lab1.model.Timber</node>
+  </nodes>
+  <notes />
+  <edges />
+  <settings layout="Hierarchic Group" zoom="0.5999999999999996" x="691.666666666667" y="304.16666666666686" />
+  <SelectedNodes>
+    <node>lab1.store.ProductStore</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

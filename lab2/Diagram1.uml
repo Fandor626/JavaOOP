@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>lab2.test.TestApp</OriginalElement>
+  <nodes>
+    <node x="556.3278388278388" y="469.0">lab2.model.Cylinder</node>
+    <node x="117.32783882783889" y="458.0">lab2.model.Timber</node>
+    <node x="0.0" y="213.0">lab2.store.WoodDirectory</node>
+    <node x="359.3278388278389" y="469.0">lab2.store.ProductStore</node>
+    <node x="310.6964285714286" y="693.0">lab2.test.TestApp</node>
+    <node x="310.6964285714286" y="863.0">com.company.Main</node>
+    <node x="119.29166666666669" y="0.0">lab2.model.Wood</node>
+    <node x="408.7202380952382" y="235.0">lab2.model.AbstractForm</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="lab2.model.Cylinder" target="lab2.model.AbstractForm">
+      <point x="-65.66666666666669" y="-71.5" />
+      <point x="589.1611721611722" y="428.0" />
+      <point x="541.9702380952382" y="428.0" />
+      <point x="51.25" y="60.5" />
+    </edge>
+    <edge source="lab2.model.Timber" target="lab2.model.AbstractForm">
+      <point x="74.0" y="-82.5" />
+      <point x="302.3278388278389" y="418.0" />
+      <point x="439.4702380952382" y="418.0" />
+      <point x="-51.25" y="60.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.7264957264957265" x="377.0" y="458.0" />
+  <SelectedNodes>
+    <node>lab2.test.TestApp</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
