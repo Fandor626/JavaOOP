@@ -5,9 +5,9 @@
   <nodes>
     <node x="556.3278388278388" y="469.0">lab2.model.Cylinder</node>
     <node x="117.32783882783889" y="458.0">lab2.model.Timber</node>
-    <node x="0.0" y="213.0">lab2.store.WoodDirectory</node>
-    <node x="359.3278388278389" y="469.0">lab2.store.ProductStore</node>
     <node x="310.6964285714286" y="693.0">lab2.test.TestApp</node>
+    <node x="359.3278388278389" y="469.0">lab2.store.ProductStore</node>
+    <node x="0.0" y="213.0">lab2.store.WoodDirectory</node>
     <node x="310.6964285714286" y="863.0">com.company.Main</node>
     <node x="119.29166666666669" y="0.0">lab2.model.Wood</node>
     <node x="408.7202380952382" y="235.0">lab2.model.AbstractForm</node>
@@ -27,7 +27,7 @@
       <point x="-51.25" y="60.5" />
     </edge>
   </edges>
-  <settings layout="Hierarchic Group" zoom="0.7264957264957265" x="377.0" y="458.0" />
+  <settings layout="Hierarchic Group" zoom="0.8975453575240129" x="376.5" y="458.49999999999994" />
   <SelectedNodes>
     <node>lab2.test.TestApp</node>
   </SelectedNodes>

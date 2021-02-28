@@ -1,9 +1,6 @@
 package lab2.test;
 
-import lab2.model.AbstractForm;
-import lab2.model.IWeight;
-import lab2.model.Timber;
-import lab2.model.Wood;
+import lab2.model.*;
 import lab2.store.ProductStore;
 import lab2.store.WoodDirectory;
 
@@ -22,7 +19,8 @@ public class TestByConsole {
         System.out.println();
         System.out.println("Введіть 'd',щоб додати деревину, 'b', " +
                 "щоб додати брус,'w',щоб вирахувати загальну вагу," +
-                "'e', щоб завершити роботу програми");
+                "'e', щоб завершити роботу програми"+", 'c',щоб додати Циліндр, "+
+                "'v',щоб додати відходи ");
         while (TrueWork)
         {
             System.out.println("");
@@ -36,6 +34,12 @@ public class TestByConsole {
                     break;
                 case "w":
                     calcWeight();
+                    break;
+                case "c":
+                    AddCylinder();
+                    break;
+                case "v":
+                    AddWaste();
                     break;
                 case "e":
                     EndProgram();
@@ -78,7 +82,24 @@ public class TestByConsole {
         System.out.println("Список брусків"+Newps);
         id=-1;
     }
-
+    private void AddCylinder(){
+        System.out.println(NewWd);
+        System.out.println("Можете ввести id деревини");
+        int id=i.nextInt();
+        System.out.println("Можете ввести довжину циліндра");
+        float length=i.nextFloat();
+        System.out.println("Можете ввести діаметр циліндра");
+        float diameter=i.nextFloat();
+        Newps.add(new Cylinder(NewWd.get(id),length,diameter));
+        System.out.println(Newps);
+        id=-1;
+    }
+    private void AddWaste(){
+        System.out.println("Можете ввести кількість відходів (кг)");
+        float weight =i.nextFloat();
+        Newps.add(new Waste(weight));
+        System.out.println(Newps);
+    }
     private void calcWeight(){
         float fullWeight = 0;
         for (Object timber : Newps.getArr()){
