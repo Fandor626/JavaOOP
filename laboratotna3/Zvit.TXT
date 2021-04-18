@@ -1,0 +1,7 @@
+Каталог деревини:
+Wood{id=0, name='der', density=1.0}
+Wood{id=1, name='dert', density=2.0}
+
+Вміст сховища продуктів:
+Timber{wood=dert, weight= 48.0}
+Cylinder{wood =dert, length=2.0, diameter=3.0}

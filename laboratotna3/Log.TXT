@@ -1,0 +1,12 @@
+Mon Apr 05 01:22:46 EEST 2021 
+Mon Apr 05 01:22:49 EEST 2021 Wood{id=0, name='der', density=1.0}
+Mon Apr 05 01:22:53 EEST 2021 Wood{id=1, name='dert', density=2.0}
+Mon Apr 05 01:23:00 EEST 2021 Timber{wood=dert, weight= 48.0}
+Mon Apr 05 01:23:06 EEST 2021 Cylinder{wood =dert, length=2.0, diameter=3.0}
+Sun Apr 18 22:02:01 EEST 2021 
+Sun Apr 18 22:02:06 EEST 2021 Wood{id=0, name='der', density=1.0}
+Sun Apr 18 22:02:12 EEST 2021 Wood{id=1, name='derrrr2', density=12.0}
+Sun Apr 18 22:02:20 EEST 2021 Wood{id=2, name='dewe', density=123.0}
+Sun Apr 18 22:02:28 EEST 2021 Timber{wood=derrrr2, weight= 1104.0}
+Sun Apr 18 22:02:34 EEST 2021 Timber{wood=dewe, weight= 7380.0}
+Sun Apr 18 22:02:38 EEST 2021 Cylinder{wood =derrrr2, length=2.0, diameter=3.0}
